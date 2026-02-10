@@ -13,7 +13,7 @@
     <string name="disclaimer_body">
         Nie ponoszę odpowiedzialności za nieprawidłowe działanie lub niewłaściwe użycie tej aplikacji.
         Aplikacja wyświetla ostrzeżenia o prędkości na podstawie danych GPS. Dokładność może się różnić w zależności od urządzenia, otoczenia i jakości sygnału GPS.
-        Zawsze przestrzegaj obowiązujących (również tymczasowych) ograniczeń prędkości i prowadź odpowiedzialnie.
+        Zawsze przestrzegaj obowiązujących (również tymczasowych) ograniczeń prędkości i zachowuj się odpowiedzialnie.
     </string>
 
     <!-- ========================================================= -->
@@ -30,20 +30,20 @@
     <!-- ========================================================= -->
     <!-- Switches -->
     <!-- ========================================================= -->
-    <string name="show_overlay">Pokaż pływający prędkościomierz</string>
+    <string name="show_overlay">Pokaż pływającą prędkość</string>
     <string name="enable_broadcast">Włącz transmisję multimedialną</string>
-    <string name="switch_use_mph">Używaj mph zamiast km/h</string>
+    <string name="switch_use_mph">Prędkość w mph</string>
 
     <!-- Overspeed mode -->
-    <string name="overspeed_mode_percentage">Użyj tolerancji procentowej</string>
-    <string name="overspeed_mode_fixed">Użyj stałej tolerancji (km/h)</string>
+    <string name="overspeed_mode_percentage">Tolerancja procentowa</string>
+    <string name="overspeed_mode_fixed">Tolerancja stała (km/h)</string>
 
     <!-- ========================================================= -->
     <!-- Buttons -->
     <!-- ========================================================= -->
     <string name="start_service">Uruchom usługę</string>
     <string name="stop_service">Zatrzymaj usługę</string>
-    <string name="btn_check_overlay">Sprawdź uprawnienia Overlay</string>
+    <string name="btn_check_overlay">Sprawdź uprawnienia pływającego okna</string>
     <string name="btn_debug_screen">Ekran debugowania</string>
     <string name="btn_diagnostics">Diagnostyka</string>
     <string name="btn_test_lookup">Test wyszukiwania limitu</string>
@@ -75,9 +75,9 @@
     <!-- ========================================================= -->
     <!-- Overlay permission -->
     <!-- ========================================================= -->
-    <string name="overlay_permission_granted">Uprawnienie Overlay przyznane</string>
-    <string name="overlay_permission_missing">Brak uprawnienia Overlay</string>
-    <string name="overlay_permission_ok">Uprawnienie Overlay OK</string>
+    <string name="overlay_permission_granted">Uprawnienie pływającego okna przyznane</string>
+    <string name="overlay_permission_missing">Brak uprawnienia pływającego okna</string>
+    <string name="overlay_permission_ok">Uprawnienie pływającego okna - OK</string>
 
     <!-- ========================================================= -->
     <!-- Overspeed settings -->
@@ -106,7 +106,7 @@
     <!-- ========================================================= -->
     <!-- Overlay permission dialog -->
     <!-- ========================================================= -->
-    <string name="dialog_overlay_title">Wymagane uprawnienie Overlay</string>
+    <string name="dialog_overlay_title">Wymagane uprawnienie pływającego okna</string>
     <string name="dialog_overlay_message">SpeedAlert wymaga uprawnienia do wyświetlania pływającego prędkościomierza.</string>
     <string name="dialog_grant">Zezwól</string>
     <string name="dialog_cancel">Anuluj</string>
@@ -114,11 +114,11 @@
     <!-- ========================================================= -->
     <!-- FYT help dialog -->
     <!-- ========================================================= -->
-    <string name="dialog_fyt_title">Uprawnienie Overlay (FYT)</string>
+    <string name="dialog_fyt_title">Uprawnienie pływającego okna (FYT)</string>
     <string name="dialog_fyt_message"><![CDATA[
-    Twoja jednostka FYT ukrywa ekran uprawnień Overlay.
+    Twoja jednostka FYT ukrywa ekran uprawnień pływającego okna.
 
-    Aby włączyć nakładki:
+    Aby włączyć pływające okno:
     1. Przejdź do Ustawień fabrycznych
     2. Wprowadź hasło: 3368 lub 8888
     3. Znajdź "Uprawnienia aplikacji" lub "Aplikacje Overlay"
